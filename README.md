@@ -6,6 +6,9 @@ A Navigation HUD which can track multiple locations uniquely for each player
 >
 >Forceloads chunk 0 0
 
+>[!important]
+>Needs supplementary Resourcepack
+
 ## Download
 Get the latest Datapack and Resourcepack from releases!
 
@@ -26,6 +29,8 @@ function lode:api/stop
 data modify storage lode:api marker set value {pos:[0,0,0],dim:"minecraft:overworld",color:"1",id:spawn,display:'{"text":"Spawn","color":"green"}'}
 function lode:api/marker/set
 ```
+* The color codes for markers are given below
+<img src="images/colors.png" width="1000">
 
 * To remove a marker, run the following command as the player:
 ```mcfunction
@@ -50,4 +55,6 @@ scoreboard players set #coords lode.id 1
 ##Hiding coords
 scoreboard players set #coords lode.id 0
 ```
+
+
 
