@@ -57,7 +57,7 @@ scoreboard players set #coords lode.id 0
 ```
 
 ## Credits
-[Supersword's fast 3d distance calc](https://github.com/SuperSwordTW/Distance-Trig-Calc-3d)
+[SuperSword's fast 3d distance calc](https://github.com/SuperSwordTW/Distance-Trig-Calc-3d)
 
 
 
