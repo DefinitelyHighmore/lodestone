@@ -1,0 +1,1 @@
+$return run data get storage lode:internal root.distance.arr[$(t)] $(y)

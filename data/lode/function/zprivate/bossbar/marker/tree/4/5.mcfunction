@@ -1,0 +1,2 @@
+execute if score #marker lode.id matches 15 run function lode:zprivate/bossbar/marker/display_15
+execute if score #marker lode.id matches 16 run data modify storage lode:internal root.hud[16] set from storage lode:players root.selected[-1].color

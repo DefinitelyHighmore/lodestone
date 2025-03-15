@@ -1,0 +1,1 @@
+$data modify storage lode:players root.$(id) set from storage lode:players root.selected

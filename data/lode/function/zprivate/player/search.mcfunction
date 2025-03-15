@@ -1,0 +1,1 @@
+$execute store success score #bool lode.id if data storage lode:players root.lookup[{uuid:$(UUID)}]
