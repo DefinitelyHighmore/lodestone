@@ -1,5 +1,5 @@
 # lodestone
-A Navigation HUD which can track multiple locations uniquely for each player
+A Multiplayer compatible Navigation HUD which can track multiple locations!
 
 >[!warning]
 >Replaces white_background bossbar texture
