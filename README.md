@@ -36,7 +36,7 @@ function lode:api/marker/set
 ```
 
 * The color codes for markers are given below
-<img src="images/colors.png" width="1000">
+![colors](https://www.dropbox.com/scl/fi/y1n8mlzzwvkuoxi4qgoo7/colors.png?rlkey=q83eufbs29fd95up4yu9xtbe3&st=bz283vnj&raw=1)
 
 * To remove a marker, run the following command as the player:
 ```mcfunction
