@@ -36,6 +36,7 @@ function lode:api/marker/set
 
 ```
 * You may also use hex codes for marker color Eg: ``color:"#621212"``
+* Leave color blank to auto assign color randomly from the 16 different default colors
 
 
 * To remove a marker, run the following command as the player:
