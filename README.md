@@ -31,12 +31,12 @@ function lode:api/marker/set
 ```
 * To add an entity as a marker to the HUD, follow the example below, and run the second command as the player:
 ```mcfunction
-data modify storage lode:api marker set value {uuid:[I;-1430022152,590171849,-2011635514,-539646155],"color":"4",display:'{"text":"Pig","color":"light_purple"}',id:pig}
+data modify storage lode:api marker set value {uuid:[I;-1430022152,590171849,-2011635514,-539646155],color:"light_purple",display:'{"text":"Pig","color":"light_purple"}',id:pig}
 function lode:api/marker/set
-```
 
-* The color codes for markers are given below
-![colors](https://www.dropbox.com/scl/fi/y1n8mlzzwvkuoxi4qgoo7/colors.png?rlkey=q83eufbs29fd95up4yu9xtbe3&st=bz283vnj&raw=1)
+```
+* You may also use hex codes for marker color Eg: ``color:"#621212"``
+
 
 * To remove a marker, run the following command as the player:
 ```mcfunction
