@@ -1,0 +1,1 @@
+$data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"$(color)"}'

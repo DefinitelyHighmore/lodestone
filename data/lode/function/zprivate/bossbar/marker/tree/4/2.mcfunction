@@ -1,2 +1,2 @@
-execute if score #marker lode.id matches 3 run data modify storage lode:internal root.hud[3] set from storage lode:players root.selected[-1].color
-execute if score #marker lode.id matches 4 run data modify storage lode:internal root.hud[4] set from storage lode:players root.selected[-1].color
+execute if score #marker lode.id matches 3 run data modify storage lode:internal root.hud[3] set from storage lode:players root.selected[-1].marker
+execute if score #marker lode.id matches 4 run data modify storage lode:internal root.hud[4] set from storage lode:players root.selected[-1].marker

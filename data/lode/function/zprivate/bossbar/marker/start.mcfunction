@@ -1,1 +1,1 @@
-data modify storage lode:internal root.hud[0] set from storage lode:players root.selected[-1].color
+data modify storage lode:internal root.hud[0] set from storage lode:players root.selected[-1].marker

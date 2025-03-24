@@ -1,0 +1,16 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "lode:font/marker.png",
+            "ascent": 7,
+            "chars": [
+                "\ue100"
+            ]
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:default"
+        }
+    ]
+}

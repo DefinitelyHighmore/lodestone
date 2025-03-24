@@ -1,0 +1,2 @@
+data modify entity f16774f5-d930-43b7-9976-6148f09d98e3 text set value '["","\\u0020\\u0020\\u0020\\u0020",{"nbt":"root.hud[]","storage":"lode:internal","separator":"","interpret":true,"font":"lode:hud"},"\\u0020\\u0020\\u0020\\u0020",{"nbt":"root.markers[]","storage":"lode:internal","font":"lode:marker","separator":"","interpret":true},{"nbt":"root.markers[]","storage":"lode:internal","font":"lode:negative","separator":"","interpret":true}]'
+data modify storage lode:internal root.display set from entity f16774f5-d930-43b7-9976-6148f09d98e3 text

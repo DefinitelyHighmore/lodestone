@@ -1,0 +1,18 @@
+execute store result score #color lode.id run random roll 0..15
+
+execute if score #color lode.id matches 0 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"black"}'
+execute if score #color lode.id matches 1 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"dark_blue"}'
+execute if score #color lode.id matches 2 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"dark_green"}'
+execute if score #color lode.id matches 3 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"dark_aqua"}'
+execute if score #color lode.id matches 4 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"dark_red"}'
+execute if score #color lode.id matches 5 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"dark_purple"}'
+execute if score #color lode.id matches 6 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"gold"}'
+execute if score #color lode.id matches 7 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"gray"}'
+execute if score #color lode.id matches 8 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"dark_gray"}'
+execute if score #color lode.id matches 9 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"blue"}'
+execute if score #color lode.id matches 10 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"green"}'
+execute if score #color lode.id matches 11 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"aqua"}'
+execute if score #color lode.id matches 12 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"red"}'
+execute if score #color lode.id matches 13 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"light_purple"}'
+execute if score #color lode.id matches 14 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"yellow"}'
+execute if score #color lode.id matches 15 run data modify storage lode:api marker.marker set value '{"text":"\\ue100","color":"white"}'

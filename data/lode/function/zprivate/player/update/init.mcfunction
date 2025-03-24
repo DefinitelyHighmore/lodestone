@@ -4,4 +4,3 @@ summon item_display ~ ~ ~ {UUID:[I;1122027286,-1387315107,-1235065460,1498891860
 loot replace entity 42e0c716-ad4f-405d-b662-658c59574654 contents loot lode:head
 $data modify storage lode:players root.lookup[{uuid:$(UUID)}].name set from entity 42e0c716-ad4f-405d-b662-658c59574654 item.components."minecraft:profile".name
 kill 42e0c716-ad4f-405d-b662-658c59574654
-

@@ -1,0 +1,6 @@
+execute store result score #cx lode.id run data get storage lode:internal root.temp.Pos[0]
+execute store result score #cy lode.id run data get storage lode:internal root.temp.Pos[1]
+execute store result score #cz lode.id run data get storage lode:internal root.temp.Pos[2]
+
+data modify entity f16774f5-d930-43b7-9976-6148f09d98e3 text set value '["",[{"text":"X:","font":"lode:negative"},{"score":{"name":"#cx","objective":"lode.id"}},{"text":" Y:"},{"score":{"name":"#cy","objective":"lode.id"}},{"text":" Z:"},{"score":{"name":"#cz","objective":"lode.id"}}],"\\u0020\\u0020\\u0020\\u0020",["",{"text":"X:","color":"gold"},{"score":{"name":"#cx","objective":"lode.id"}},{"text":" Y:","color":"gold"},{"score":{"name":"#cy","objective":"lode.id"}},{"text":" Z:","color":"gold"},{"score":{"name":"#cz","objective":"lode.id"}}],"\\u0020\\u0020\\u0020\\u0020",{"nbt":"root.hud[]","storage":"lode:internal","separator":"","interpret":true,"font":"lode:hud"},"\\u0020\\u0020\\u0020\\u0020",{"nbt":"root.markers[]","storage":"lode:internal","font":"lode:marker","separator":"","interpret":true},{"nbt":"root.markers[]","storage":"lode:internal","font":"lode:negative","separator":"","interpret":true},"\\u0020\\u0020\\u0020\\u0020"]'
+data modify storage lode:internal root.display set from entity f16774f5-d930-43b7-9976-6148f09d98e3 text
