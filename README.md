@@ -26,7 +26,7 @@ function lode:api/stop
 
 * To add a static location as a marker to the HUD, follow the example below, and run the second command as the player:
 ```mcfunction
-data modify storage lode:api marker set value {pos:[0,0,0],dim:"minecraft:overworld",color:"1",id:spawn,display:'{"text":"Spawn","color":"green"}'}
+data modify storage lode:api marker set value {pos:[0,0,0],dim:"minecraft:overworld",color:"green",id:spawn,display:'{"text":"Spawn","color":"green"}'}
 function lode:api/marker/set
 ```
 * To add an entity as a marker to the HUD, follow the example below, and run the second command as the player:
